@@ -1,0 +1,241 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+input,
+textarea,
+form,
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* 背景 */
+html,
+body {
+	height: 100%;
+}
+
+.topbackground {
+	height: 100%;
+	background: url(../img/orange.jpg) no-repeat -280px top;
+	background-size: 150%;
+
+}
+
+/* logo */
+.logo {
+	font-size: 60px;
+	color: #76e6a4;
+	padding: 50px 50px;
+	font-family: "arial black";
+}
+
+/* 選單部分 */
+.guide {
+	overflow: hidden;
+	margin: 0 auto;
+	/* border: 1px solid black; */
+	width: 1038px;
+}
+
+/* 選項 */
+.guide a {
+	width: 200px;
+	height: 200px;
+	display: block;
+	border: 13px solid #76E6A4;
+	background-color: rgba(255,255,255,0.3);
+	float: left;
+	margin: 60px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.guide a p {
+	font-size: 18px;
+	color: black;
+	font-family: "arial black";
+	padding-top: 85px;
+}
+
+/* hover設置 */
+.gallery a:hover {
+	background: url(../img/蓮霧人.jpg) no-repeat center center #76E6A4;
+	background-size: 120%;
+
+}
+
+.exhib a:hover {
+	background: url(../img/展覽.jpg) no-repeat center center #76E6A4;
+	background-size: 120%;
+}
+
+.info a:hover {
+	background-color: #76E6A4;
+
+}
+
+/* 過渡設置 */
+.guide a {
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
+
+/* gallery部分 */
+
+.box2 h2 {
+	width: 70%;
+	font-size: 60px;
+	color: #76E6A4;
+	margin: auto;
+	margin-top: 200px;
+	padding-left: 50px;
+	border-bottom: 5px solid #76E6A4;
+	font-family: "arial black";
+}
+
+.pro_list1 {
+	width: 1260px;
+	/* border: 1px solid black; */
+	margin: 100px auto;
+	overflow: hidden;
+}
+
+.img {
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+	float: left;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img img {
+	height: 103%;
+	display: block;
+	transition: all 1s;
+
+}
+
+.img img:hover {
+	transform: scale(0.8);
+}
+
+.img2 {
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+	float: left;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img2 img {
+	height: 100%;
+	display: block;
+	transition: all 1s;
+}
+
+.img2 img:hover {
+	transform: scale(0.8);
+}
+
+
+form {
+	height: 500px;
+	margin: 100px auto;
+}
+
+.text,
+.email {
+	width: 800px;
+	height: 50px;
+	border: 3px solid #76E6A4;
+	margin: 20px auto 0;
+	font-size: 15pt;
+	padding-left: 20px;
+	font-family: "century gothic";
+	background-color: white;
+
+}
+
+textarea {
+	width: 800px;
+	height: 200px;
+	border: 3px solid #76E6A4;
+	margin: 20px auto 0;
+	font-size: 15pt;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: #76E6A4;
+	font-family: "century gothic";
+	background-color: white;
+}
+
+.submit {
+	width: 100px;
+	height: 50px;
+	border: 3px solid #76E6A4;
+	margin: 20px auto 0;
+	font-size: 15pt;
+	text-align: center;
+	background-color: #76E6A4;
+	color: white;
+}
+
+
+.contact {
+	width: 960px;
+	/* border: 1px solid black; */
+	overflow: hidden;
+	margin: 100px auto 0;
+}
+
+.pic {
+	width: 200px;
+	/* border: 1px solid black; */
+	float: left;
+	text-align: center;
+	color: gray;
+	margin: 0 60px 0 60px;
+}
+
+.pic img {
+	width: 50px;
+	margin: 0 auto 5px;
+}
+
+.pic p{
+	padding-bottom: 20px;
+}
+
+.back{
+	width: 50px;
+	text-align: center;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	
+	
+}
+.back a{
+	color: #76E6A4;
+	font-size: 12pt;
+	font-family: "arial black";
+}
+.back img{
+	width: 50px;
+}
